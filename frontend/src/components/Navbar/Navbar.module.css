@@ -1,0 +1,20 @@
+.container_navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1b1b1b;
+}
+
+.button_navbar{
+    color: white !important;
+}
+
+.text_navbar{
+     font-size: 22px !important;
+}
+
+.button_navbar:hover {
+    background-color: red !important;
+}
