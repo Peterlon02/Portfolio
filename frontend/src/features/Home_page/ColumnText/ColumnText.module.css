@@ -1,0 +1,27 @@
+.column_container{
+    border: 1px solid white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.text_presentation{
+    text-align: center;
+    font-size: 70px;
+}
+
+.container_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    border: 1px solid white;   
+}
+
+.button:hover{
+    background-color: red;
+}

@@ -10,7 +10,7 @@ import Contact from './pages/Contact'
 function App() {
   const [selectedSection, setSelectedSection] = useState('Home');
   const sections={
-    Home: <Home />,
+    Home: <Home setSelectedSection={setSelectedSection} />,
     About: <About />,
     Work: <Work />,
     Contact: <Contact />
