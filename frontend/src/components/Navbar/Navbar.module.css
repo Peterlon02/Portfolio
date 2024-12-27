@@ -19,3 +19,15 @@
     background-color: red !important;
 }
 
+
+@media (max-width: 500px){
+    .text_navbar{
+        font-size: 18px !important;
+   }
+}
+
+@media (max-width: 390px){
+    .text_navbar{
+        font-size: 15px !important;
+   }
+}
