@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import styles from './Navbar.module.css';
 import {Link} from 'react-router-dom';
-import { Button, Col, Row, } from "react-bootstrap";
+import { Button, Col, Container, Row, } from "react-bootstrap";
 
 function Navbar({setChose}){
     
     return(
-        <Row className={`${styles.container_navbar} `}>
+        <Container fluid className={`${styles.container_navbar} `}>
             <Col xs={2} >
                 <Button variant="none" onClick={()=>{setChose('Home')}} className={`${styles.button_navbar} ${styles.text_navbar}`}>HOME</Button>
             </Col>
@@ -19,7 +19,7 @@ function Navbar({setChose}){
             <Col xs={2} >
                 <Button variant="none" onClick={()=>{setChose('Contact')}} className={`${styles.button_navbar} ${styles.text_navbar}`}>CONTACT</Button>
             </Col>
-        </Row>
+        </Container >
     )
 }
 

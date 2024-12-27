@@ -3,7 +3,7 @@ import {Container} from 'react-bootstrap';
 import Navbar from './components/Navbar/Navbar';
 import { useState } from 'react';
 import Home from './pages/Home'
-import About from './pages/About'
+import About from './pages/About/About'
 import Work from './pages/Work'
 import Contact from './pages/Contact'
 
@@ -16,7 +16,7 @@ function App() {
     Contact: <Contact />
   }
   return (
-   <Container fluid className='app '>
+   <Container fluid className=' p-0 app '>
       <Navbar setChose={setSelectedSection}></Navbar>
       {sections[selectedSection]}
    </Container>
