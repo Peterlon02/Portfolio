@@ -1,4 +1,19 @@
 .container{
-    background-color: red;
-    
+display: flex;
+flex-direction: column;
+background-color: red;
+padding-top: 50px;
+}
+
+.conatiner_box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: center;
+    padding: 0.5%;
+    font-weight: bold;
+    color: white;
+}
+
+.container-img{
 }
