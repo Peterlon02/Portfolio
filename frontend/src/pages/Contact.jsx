@@ -1,6 +1,9 @@
+import { Container } from "react-bootstrap"
+import NavbarContact from "../features/ContactPage/NavbarContact/NavbarContact"
+
 function Contact(){
     return(
-        <h1>Contact</h1>
+        <NavbarContact />
     )
 }
 export default Contact

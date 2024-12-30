@@ -6,7 +6,7 @@ function About(){
         <Container fluid className={`${styles.container}`}>
             <Container className={` ${styles.conatiner_box}`}>
                 <h1>ABOUT ME</h1>
-                <p>Sono Pietro, un junior web developer con una passione per il mondo del frontend e una forte inclinazione verso React. Mi piace trasformare idee in realtà digitali e migliorare l’esperienza utente attraverso design funzionali.</p>
+                <h5>Sono Pietro, un junior web developer con una passione per il mondo del frontend e una forte inclinazione verso React. Mi piace trasformare idee in realtà digitali e migliorare l’esperienza utente attraverso design funzionali.</h5>
             </Container>
             <Container className={` ${styles.conatiner_box}`}>
                 <h1>SKILLS</h1>
@@ -16,13 +16,13 @@ function About(){
             </Container>
             <Container className={` ${styles.conatiner_box}`}>
                 <h1>TIMELINE</h1>
-                <p>Laurea BSc in Computer Engineering & Artificial Intelligence [In corso]</p>
-                <p>Bootcamp Web Developer - Epicode (Part-time, 6 mesi)</p>
-                <p>Diploma Liceo Scientifico indirizzo Scienze Applicate</p>
+                <h5>Laurea BSc in Computer Engineering & Artificial Intelligence [In corso]</h5>
+                <h5>Bootcamp Web Developer - Epicode (Part-time, 6 mesi)</h5>
+                <h5>Diploma Liceo Scientifico indirizzo Scienze Applicate</h5>
             </Container>
             <Container className={` ${styles.conatiner_box}`}>
                 <h1>GOAL</h1>
-                <p>Attualmente sto lavorando per migliorare le mie competenze nello stack MERN e puntando a creare applicazioni sempre più innovative e performanti</p>
+                <h5>Attualmente sto lavorando per migliorare le mie competenze nello stack MERN e puntando a creare applicazioni sempre più innovative e performanti</h5>
             </Container>
         </Container>
     )
