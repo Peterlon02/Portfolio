@@ -2,6 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
+const nodemailer = require("nodemailer");
 require('dotenv').config();
 
 //Creazione dell'app Express
@@ -17,6 +18,7 @@ mongoose.connect(process.env.MONGO_URI, {
 }).catch((err) => {
     console.error('Error connecting to MongoDB', err);
 });
+
 
 // Middleware
 app.use(cors());
